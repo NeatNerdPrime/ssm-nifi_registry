@@ -44,16 +44,16 @@ class { 'nifi_registry':
 
 The following parameters are available in the `nifi_registry` class:
 
-* [`version`](#version)
-* [`user`](#user)
-* [`group`](#group)
-* [`download_url`](#download_url)
-* [`download_checksum`](#download_checksum)
-* [`download_checksum_type`](#download_checksum_type)
-* [`install_root`](#install_root)
-* [`download_tmp_dir`](#download_tmp_dir)
+* [`version`](#-nifi_registry--version)
+* [`user`](#-nifi_registry--user)
+* [`group`](#-nifi_registry--group)
+* [`download_url`](#-nifi_registry--download_url)
+* [`download_checksum`](#-nifi_registry--download_checksum)
+* [`download_checksum_type`](#-nifi_registry--download_checksum_type)
+* [`install_root`](#-nifi_registry--install_root)
+* [`download_tmp_dir`](#-nifi_registry--download_tmp_dir)
 
-##### <a name="version"></a>`version`
+##### <a name="-nifi_registry--version"></a>`version`
 
 Data type: `String`
 
@@ -63,7 +63,7 @@ paths in the service.
 
 Default value: `'1.15.1'`
 
-##### <a name="user"></a>`user`
+##### <a name="-nifi_registry--user"></a>`user`
 
 Data type: `String`
 
@@ -72,7 +72,7 @@ the service.
 
 Default value: `'nifiregistry'`
 
-##### <a name="group"></a>`group`
+##### <a name="-nifi_registry--group"></a>`group`
 
 Data type: `String`
 
@@ -81,7 +81,7 @@ the service.
 
 Default value: `'nifiregistry'`
 
-##### <a name="download_url"></a>`download_url`
+##### <a name="-nifi_registry--download_url"></a>`download_url`
 
 Data type: `String`
 
@@ -89,7 +89,7 @@ Where to download the binary installation tarball from.
 
 Default value: `'https://dlcdn.apache.org/nifi/1.15.1/nifi-registry-1.15.1-bin.tar.gz'`
 
-##### <a name="download_checksum"></a>`download_checksum`
+##### <a name="-nifi_registry--download_checksum"></a>`download_checksum`
 
 Data type: `String`
 
@@ -98,7 +98,7 @@ verifying the integrity of the downloaded tarball.
 
 Default value: `'862e6071a39fe94485a90a69637dccf594d319d8f98739a63828bb2d74af840e'`
 
-##### <a name="download_checksum_type"></a>`download_checksum_type`
+##### <a name="-nifi_registry--download_checksum_type"></a>`download_checksum_type`
 
 Data type: `String`
 
@@ -107,7 +107,7 @@ verifying the integrity of the downloaded tarball.
 
 Default value: `'sha256'`
 
-##### <a name="install_root"></a>`install_root`
+##### <a name="-nifi_registry--install_root"></a>`install_root`
 
 Data type: `Stdlib::Absolutepath`
 
@@ -115,7 +115,7 @@ The root directory of the nifi registry installation.
 
 Default value: `'/opt/nifi-registry'`
 
-##### <a name="download_tmp_dir"></a>`download_tmp_dir`
+##### <a name="-nifi_registry--download_tmp_dir"></a>`download_tmp_dir`
 
 Data type: `Stdlib::Absolutepath`
 
